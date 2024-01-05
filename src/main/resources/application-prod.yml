@@ -7,6 +7,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  zipkin:
+    base-url: http://zipkin-service:9411/
+    enabled: true
 encrypt:
   key: ${ENCRYPT_SECRET_KEY}
 eureka:
